@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        div.blocos {
+            display: inline-block; /*Blocos em Linha */
+            background-color: gray;
+            text-align: center;
+            height: 170px;  /*Altura */
+            width: 200px; /*Largura */
+            border: 1px solid black;
+        }
+
+        div.blocos:hover { /*Hover-quando o mouse passar por cima(estado de um elemento) */
+            background-color: yellow;
+        }
+
+        div > p { /*simboliza todos os paragrafos que estao numa div */
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: red;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="blocos">01</div>
+    <div class="blocos">02</div>
+    <div class="blocos">03</div>
+    <h2>Coisa dentro de coisas</h2>
+    <h2>Passe o mouse no texto abaixo</h2>
+    <div>Cristiano Ronaldo é
+        <p>O melhor do mundo</p>
+    </div>
+</body>
+</html>

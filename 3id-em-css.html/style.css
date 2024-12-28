@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*Em HTML é id--Em CSS é #
+  Em HTML é class-- Em CSS é .  
+  : é pseudo classes(estado de um elemento)
+  mais de um class -- class="nome nome nome nome(sem virgula msm)"
+*/
+
+body {
+    background-color: rgba(0, 0, 255, 0.406);
+}
+
+h1, h2 {
+    color: rgb(0, 252, 42);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1#pri {
+    color: rgba(255, 0, 132, 0.797);
+    /* tag#id-do-elemento*/
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background-color: black;
+}
+
+.basico {
+    color: yellow;
+}
+
+.medio {
+    color: orangered;
+}
+
+.avancado {
+    color: red;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+            border: 30px solid red;
+            padding: 10px 10px 10px 10px;
+            margin: auto; /*centraliza a caixa */
+            outline: 10px dashed rgb(0, 0, 0);
+            
+            /*Shorthand----=border: 10px solid red (largura, estilo, cor) */
+            
+            /* Shorthand padding
+                padding: 15px 10px 15px 10px;(sent. horário: top, right, bottom, left)
+	           padding: 10px;(os 4 lados iguais a 10px)
+	           padding: 15px 10px;	(cima e baixo 15px / esquerda e direita 10px) */
+        }
+
+        p {
+            margin: 20px 5px 5px 5px;
+        }
+        a {
+            border: 10px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>É um modelo de caixas box-level</h1>
+    <p>Paragrafos são box-level, porem os <a href="#">links são inline-level Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia rem porro nulla non enim? Quaerat?</a></p>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas Decoradas</title>
+    <style>
+        #ruim {
+            border: 10px solid black;
+            padding: 10px;
+        }
+
+        h1 {
+            border: 10px solid;
+            border-image-source: url("Martin-Berube-Sport-Soccer.256.png");
+            border-image-slice: 1;
+            border-image-repeat: repeat;
+            /*shorthand borda com imagem-- border-image: url("") slice repeat */
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="ruim">
+        Borda normal kkkk
+    </h1>
+    <h1>Borda decorada pica</h1>
+</body>
+</html>
